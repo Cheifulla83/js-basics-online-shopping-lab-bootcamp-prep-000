@@ -144,8 +144,8 @@ describe("total()", function() {
   });
 });
 
-//describe("placeOrder()", function() {
-//  it("doesn't place the order if a credit card number is not provided", function() {
+describe("placeOrder()", function() {
+  it("doesn't place the order if a credit card number is not provided", function() {
     
     expect(placeOrder()).toEqual("Sorry, we don't have a credit card on file for you.");
   });
